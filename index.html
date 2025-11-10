@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Site Estudiante - Inicio</title>
+</head>
+<body>
+    <main class="main">
+    
+        <section class="contenedor section-1">
+            <header class="header">
+                <figure class="img logo-figure">
+                    </svg>
+                    <img src="img/logo.png" alt="Ingeniera de sistemas">
+                    <figcaption>Pagina de Ingeniería de Sistemas</figcaption>
+                </figure>
+                <nav class="menu">
+                    <a href="#" >Inicio</a>
+                    <a href="#">Conózcanos</a>
+                    <a href="#">Servicios</a>
+                    <a href="#">Galería</a>
+                    <a href="#">Contacto</a>
+                </nav>
+            </header>
+        </section>
+
+        <section class="contenedor section-2">
+            <article class="s2-textos">
+                <h1 class="titulo">BIENVENIDOS</h1>
+                <hr>
+                <p>
+                    Este sitio web es un portal dedicado a la Ingeniería de Sistemas, la disciplina que se enfoca en el diseño, implementación, análisis y optimización de sistemas complejos.
+                </p>
+            </article>
+
+            <article class="s2-img card-contenido">
+                <aside class="s2-contenido">
+                    <div class="s2-contenido-imag">
+                        <picture>
+                            <source media="(min-width: 12000px)" srcset="img/imagen.jpg">
+                            <source media="(min-width: 768px)" srcset="img/img0.jpg">
+                            <img src="img/img0.jpg" alt="Ingeniería de Sistemas: Hardware ">
+                        </picture>
+                    </div>
+                    <div class="contenido-texto">
+                        <h2>Ingeniería de Sistemas</h2>
+                        <p>
+                            La ingeniería de sistemas es una disciplina que integra conocimientos de informática, matemáticas, física y gestión para diseñar, desarrollar, implementar y mantener sistemas complejos, que pueden incluir hardware, software, redes y procesos.
+                        </p>
+                    </div>
+                </aside>
+            </article>
+
+            <article class="s3-img card-contenido">
+                <aside class="s3-contenido">
+                    <div class="s3-contenido-imag">
+                        <img src="img/img2.jpg" alt="Ingeniería de Software">
+                    </div>
+                    <div class="contenido-texto">
+                        <h2>Ingeniería de Software</h2>
+                        <p>
+                            A diferencia de la programación, que se centra en escribir código para una tarea específica, la ingeniería de software adopta un enfoque más integral y sistemático. Su objetivo es producir sistemas de software robustos, fiables y fáciles de mantener.
+                        </p>
+                    </div>
+                </aside>
+            </article
+
+                <section class="contenedor section-image-map">
+    <h2 class="titulo-secundario">Áreas de Especialización</h2>
+    
+    <p class="instruccion">
+        **Haz clic** para explorar más detalles.
+    </p>
+    
+    <img src="img/imgmov.gif" alt="Mapa de aplicaciones de la Ingeniería de Sistemas: Ciberseguridad, Análisis de Datos y más." usemap="#mapa-aplicaciones" class="image-map">
+    
+    <map name="mapa-aplicaciones">
+        <area shape="rect" coords="10,10,10,10" href="#" alt="Ciberseguridad" title="Click para Ciberseguridad">
+        
+        <area shape="circle" coords="10,10,=" href="#" alt="Análisis de Datos" title="Click para Análisis de Datos">
+        
+        </map>
+</section>
+        
+        <section class="contenedor section-3">
+            <h2 class="titulo-secundario">Contacto y Horarios</h2>
+            
+            <div class="s3-grid">
+                
+                <article class="formulario-contacto">
+                    <h3>Envíanos tu Consulta</h3>
+                    <form action="#" method="POST">
+                        <div><label for="nombre">Nombre Completo:</label><input type="text" id="nombre" name="nombre" required></div>
+                        <div><label for="email">Correo Electrónico:</label><input type="email" id="email" name="email" required></div>
+                        <div><label for="telefono">Teléfono:</label><input type="tel" id="telefono" name="telefono"></div>
+                        <div><label for="mensaje">Tu Mensaje:</label><textarea id="mensaje" name="mensaje" rows="4" required></textarea></div>
+                        <button type="submit" class="boton-enviar">Enviar Consulta</button>
+                    </form>
+                </article>
+                
+                <article class="tabla-horarios">
+                    <h3>Horarios de Atención</h3>
+                    <table>
+                        <thead>
+                            <tr><th>Día</th><th>Horario Mañana</th><th>Horario Tarde</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Lunes a Viernes</td><td>8:00 - 13:00</td><td>14:00 - 18:00</td></tr>
+                            <tr><td>Sábados</td><td>9:00 - 13:00</td><td>Cerrado</td></tr>
+                            <tr class=""><td>Domingos</td><td colspan="2">Cerrado</td></tr>
+                        </tbody>
+                    </table>
+                </article>
+                
+            </div>
+
+            <div class="s3-contenido">
+                <div class="s3-logo"><img src="img/logo.png" alt="logo"></div>
+                <div class="s3-texto">
+                    <h3>Ubicanos en:</h3>
+                    <address>
+                        <p>Av. Unión N° 198</p>
+                        <p>Chiclayo, Perú</p>
+                        <a href="mailto:info@google.com">info@sistemas.com</a>
+                    </address>
+                </div>
+            </div>
+            
+            <footer class="footer">
+                &copy; <a href="#" class="autor">Zully Quiroz</a> |
+                <a href="#" class="politicas">Políticas de seguridad</a>
+            </footer>
+        </section>
+
+    </main>
+</body>
+</html>
